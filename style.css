@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: #B5D0D0;
+    justify-content: center;
+    top:0;
+    padding:10px 0px 3% 1%;
+
+
+}
+nav li{
+  display: inline;
+  list-style: none;
+  padding:2%;
+  margin-left:6%;
+  
+}
+nav a{
+text-decoration: none;
+color: #f2f5f5 ;
+margin-bottom: 10px;
+padding-top: 30px;
+font-weight: bold;
+font-size: 14px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.icon {
+width: 5%;
+transform: scale(5);
+padding:10px 5px 0px 15px;
+
+}
+
+#icon2{
+    width:5%;
+    transform: scale(9);
+    margin-top: 12%;
+    position: absolute;
+    left:13%;
+
+}
+#icon3{
+    width:5%;
+    transform: scale(9);
+    margin-top: 12%;
+    position: absolute;
+    margin-left:20%
+}
+
+.hero{
+    background-color: #868472;
+    color: #FFFAED;
+    padding: 20px;
+    margin: 0;
+
+}
+.hero h1, p{
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 23%;
+
+}
+
+#flower{
+    width:2%;
+    position: absolute;
+    top:20%;
+    left:0%;
+    transform:scaleX(-1) rotate(-25deg) scale(20);
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
